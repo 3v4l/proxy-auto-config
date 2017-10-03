@@ -8,5 +8,5 @@ MinPlatformVersion: 0
 ProOnly: False
 Author: Jon Passki
 ShortDescription: Automatically configures Burp upstream proxies to match desktop proxy settings.
-EntryPoint: build/libs/proxy-auto-config-all.jar
-BuildCommand: gradle shadowJar
+EntryPoint: build/libs/burp-pac-0.0.1-all.jar
+BuildCommand: ./gradlew shadowJar
